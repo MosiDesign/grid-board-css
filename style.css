@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #D1D1D1;
+    padding: 100px;
+}
+
+main {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 98px 1fr;
+    column-gap: 30px;
+    row-gap: 20px;
+}
+
+section {
+    border-radius: 32px;
+}
+
+/* section 1 */
+
+.board {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    background-color: #F1F0F6;
+    padding: 24.5px 24px 23.5px 22px;
+}
+
+.search {
+    width: 570px;
+    height: 50px;
+    background-color: #FFFFFF;
+}
+
+/* .job {
+
+}
+
+.map {
+
+} */
+
+/* .btn-search {
+    
+} */
+
+.results {
+    background-color: #F1F0F6;
+}
+
+.prograph {
+    background-color: #FFFFFF;
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+}
