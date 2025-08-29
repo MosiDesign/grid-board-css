@@ -28,35 +28,170 @@ section {
 .board {
     display: flex;
     flex-direction: row;
-    flex: 1;
     background-color: #F1F0F6;
     padding: 24.5px 24px 23.5px 22px;
+    gap: 26px;
 }
 
-.search {
-    width: 570px;
-    height: 50px;
+.Search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
     background-color: #FFFFFF;
+    border-radius: 16px;
+    color: #7A7A7A;
 }
 
-/* .job {
-
+.job {
+    display: flex;
+    cursor: pointer;   
 }
 
 .map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+}
 
-} */
+.btn-search {
+    display: flex;
+}
 
-/* .btn-search {
-    
-} */
+.btn-search button {
+    width: 125px;
+    height: 50px;
+    border-radius: 16px;
+    border: none;
+    color: #FFFFFF;
+    background-color: #FF60A3;
+    gap: 10px;
+    cursor: pointer;   
+}
+
+/* section 2 */
 
 .results {
     background-color: #F1F0F6;
+    padding: 25px;
 }
+
+.header-search {
+    display: flex;
+    justify-content: space-between;
+}
+
+.results-box {
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 25px 24px;
+    margin-top: 36px;
+}
+
+.boxs {
+    background-color: #FFFFFF;
+    height: 205px;
+    border-radius: 24px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 16px;
+}
+
+.box-item-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icon-netflix {
+    display: flex;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    border-radius: 8px;
+    background-color: #DDDDDD;
+}
+
+.item-img {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+}
+
+.box-item-2 {
+    margin-top: 16px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.box-item-2 button {
+    margin-left: 8px;
+    border-radius: 99px;
+    border: none;
+    outline: none;
+    background-color: #EDEDED;
+    padding: 4px 8px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.box-item-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+/* section 3 */
 
 .prograph {
     background-color: #FFFFFF;
     grid-column: 2 / 3;
     grid-row: 1 / 3;
+    padding: 32px 24px 0px 24px;
+}
+
+.box-prograph {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-prograph {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-prograph button {
+    width: 142px;
+    height: 32px;
+    background-color: #FFE4EF;
+    color: #FF70AC;
+    margin-top: 16px;
+    border-radius: 99px;
+    border: none;
+    outline: none;
+    padding: 4px 8px;
+    font-size: 16px;
+}
+
+.button-Apply {
+    display: flex;
+    flex-direction: column;
+}
+
+.button-Apply button {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-top: 45px;
+    border: none;
+    outline: none;
+    background-color: #FF60A3;
+    color: #FFFFFF;
+    border-radius: 16px;
 }
